@@ -21,7 +21,7 @@ inoremap ' ''<Esc>ha
 inoremap ` ``<Esc>ha
 
 
-
+set autoindent expandtab tabstop=2 shiftwidth=2
 set hlsearch
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
